@@ -199,7 +199,7 @@
   background-color: #cf5659;
 }
 
-/* ################ 页签 ############# */
+/* 页签 */
 .layout-tab-bar .item--focus {
   box-shadow: 0px 0px 0px 1.5px #cf5659 inset;
   background-color: #cc707021 !important;
@@ -215,5 +215,47 @@
   max-width: none;
 }
 .layout-tab-bar .item__text::after {
-  background: #00000000 !important;
+  background: transparent !important;
+}
+
+/* 引用块 */
+.b3-list--files .b3-list-item .counter,
+.b3-list--files .b3-list-item .protyle-attr--refcount {
+  background-color: var(--b3-list-hover);
+  color: var(--b3-theme-on-background) !important;
+}
+.counter,
+.protyle-attr--refcount {
+  border-radius: 50%;
+  background-color: #cf5659;
+  color: #ffffff !important;
+}
+
+/* 删除线 */
+.b3-typography s,
+.protyle-wysiwyg s {
+  color: #cf5659;
+}
+
+/* 有序列表 */
+.protyle-wysiwyg [data-node-id].li > .protyle-action--order:after {
+  border-radius: 50%;
+}
+.protyle-wysiwyg [data-node-id].li > .protyle-action:after {
+  height: 18px;
+  width: 18px;
+  margin: -9px 0 0 -9px;
+}
+
+/* 任务列表 */
+.protyle-task--done {
+  color: #aaaaaabb;
+  text-decoration: line-through;
+}
+.protyle-task--done svg {
+  color: #5695cf !important;
+}
+
+.protyle-action--task svg {
+  color: #cf5659;
 }
