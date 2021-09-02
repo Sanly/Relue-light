@@ -219,13 +219,12 @@
 }
 
 /* 引用块 */
-.b3-list--files .b3-list-item .counter,
-.b3-list--files .b3-list-item .protyle-attr--refcount {
-  background-color: var(--b3-list-hover);
-  color: var(--b3-theme-on-background) !important;
+.layout-tab-container .counter,
+.layout-tab-container .protyle-attr--refcount {
+  border-radius: 50%;
 }
-.counter,
-.protyle-attr--refcount {
+.protyle-content .counter,
+.protyle-content .protyle-attr--refcount {
   border-radius: 50%;
   background-color: #cf5659;
   color: #ffffff !important;
