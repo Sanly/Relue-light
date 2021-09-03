@@ -233,6 +233,18 @@
   background-color: #cf5659;
   color: #ffffff !important;
 }
+.backlinkList .counter,
+.backlinkList .protyle-attr--refcount {
+  border-radius: 50%;
+  background-color: #cf5659;
+  color: #ffffff !important;
+}
+.backlinkMList .counter,
+.backlinkMList .protyle-attr--refcount {
+  border-radius: 50%;
+  background-color: #cf5659;
+  color: #ffffff !important;
+}
 
 /* 删除线 */
 .b3-typography s,
