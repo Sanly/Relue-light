@@ -151,7 +151,7 @@
   left: 4px;
   color: var(--b3-theme-on-background);
   border-left: 0.3em solid #ddd;
-  background-color: rgba(221, 221, 221, 0);
+  background-color: transparent;
 }
 
 /*块引用*/
@@ -176,7 +176,6 @@
   background-color: #5695cf21;
   border-bottom: 1px solid #5695cf;
 }
-
 .protyle-wysiwyg [data-node-id] span[data-type='a']:hover {
   background-color: #5695cf50;
 }
@@ -192,11 +191,16 @@
 /* 标签 */
 .protyle-wysiwyg span[data-type='tag'] {
   font-size: 85%;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 3px 6px;
+  position: relative;
+  top: -2px;
   color: #ffffff !important;
   border-bottom: none !important;
   background-color: #cf5659;
+}
+.protyle-wysiwyg span[data-type='tag']:hover {
+  background-color: #5695cf !important;
 }
 
 /* 页签 */
