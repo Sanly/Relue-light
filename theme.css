@@ -157,7 +157,7 @@
 /*块引用*/
 .protyle-wysiwyg [data-node-id] span[data-type='block-ref'] {
   font-size: 100%;
-  padding: 0px 1px;
+  padding: 1px 1px 0 1px;
   margin: 0px 1px;
   color: #cf5659 !important;
   background-color: #cf565921;
@@ -169,7 +169,7 @@
 
 /* 超链接 */
 .protyle-wysiwyg [data-node-id] span[data-type='a'] {
-  padding: 0px 1px;
+  padding: 1px 1px 0 1px;
   margin: 0px 1px;
   font-size: 100%;
   color: #5695cf !important;
@@ -271,7 +271,6 @@
 .protyle-task--done svg {
   color: #5695cf !important;
 }
-
 .protyle-action--task svg {
   color: #cf5659;
 }
