@@ -228,6 +228,11 @@
   padding: 0 5px;
   border-radius: 8px;
 }
+.b3-list--files .b3-list-item .counter,
+.b3-list--files .b3-list-item .protyle-attr--refcount {
+  background-color: #cf5659;
+  color: #ffffff !important;
+}
 .protyle-content .counter,
 .protyle-content .protyle-attr--refcount {
   background-color: #cf5659;
