@@ -223,33 +223,28 @@
 }
 
 /* 引用块 */
-.layout-tab-container .counter,
-.layout-tab-container .protyle-attr--refcount {
+.counter,
+.protyle-attr--refcount {
+  padding: 0 5px;
   border-radius: 8px;
 }
 .protyle-content .counter,
 .protyle-content .protyle-attr--refcount {
-  border-radius: 8px;
   background-color: #cf5659;
   color: #ffffff !important;
 }
 .backlinkList .counter,
 .backlinkList .protyle-attr--refcount {
-  border-radius: 8px;
   background-color: #cf5659;
   color: #ffffff !important;
 }
 .backlinkMList .counter,
 .backlinkMList .protyle-attr--refcount {
-  border-radius: 8px;
   background-color: #cf5659;
   color: #ffffff !important;
 }
 
 /* 列表 */
-.protyle-wysiwyg [data-node-id].li > .protyle-action--order:after {
-  border-radius: 50%;
-}
 .protyle-wysiwyg [data-node-id].li > .protyle-action:after {
   height: 18px;
   width: 18px;
@@ -261,6 +256,9 @@
 .protyle-wysiwyg [data-node-id].li > .protyle-action:hover::after {
   opacity: 1;
   background-color: #cf565950 !important;
+}
+.protyle-wysiwyg [data-node-id].li > .protyle-action--order:after {
+  border-radius: 50%;
 }
 
 /* 任务列表 */
