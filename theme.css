@@ -251,9 +251,9 @@
   border-radius: 50%;
 }
 .protyle-wysiwyg [data-node-id].li > .protyle-action:after {
-  height: 22px;
-  width: 22px;
-  margin: -11px 0 0 -11px;
+  height: 18px;
+  width: 18px;
+  margin: -9px 0 0 -9px;
 }
 .protyle-wysiwyg [data-node-id].li[fold='1'] > .protyle-action::after {
   background-color: #cf565921;
@@ -269,10 +269,45 @@
   text-decoration: line-through;
 }
 .protyle-task--done svg {
-  color: #5695cf !important;
+  visibility: hidden;
 }
 .protyle-action--task svg {
   color: #cf5659;
+}
+.protyle-wysiwyg .protyle-action--task:before,
+.b3-typography .protyle-task:before {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  text-align: center;
+  border: 0px;
+  top: 10px;
+}
+.protyle-task--done > .protyle-action--task:before,
+.b3-typography .protyle-task--done:before {
+  content: '\2713';
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #cf5659;
+}
+.protyle-wysiwyg [data-node-id].li > .protyle-action--task:hover:before {
+  content: '\2713';
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: bold;
+  width: 12px;
+  height: 12px;
+  border: 1px dashed #cf5659;
+  color: #cf5659;
+  background-color: transparent;
+}
+.protyle-wysiwyg [data-node-id].li > .protyle-action--task:hover::after {
+  background-color: transparent !important;
 }
 
 /* 标记 */
@@ -288,4 +323,9 @@
 .b3-list mark {
   padding: 2px 0 0 0;
   border-bottom: 2px solid #bdcb0f;
+}
+
+/* 超级块 */
+.sb {
+  padding: 0 !important;
 }
