@@ -139,7 +139,7 @@
   --b3-protyle-inline-em-color: #202124;
   --b3-protyle-inline-s-color: #cf5659;
   --b3-protyle-inline-link-color: #4285f4;
-  --b3-protyle-inline-mark-background: #d7e42d;
+  --b3-protyle-inline-mark-background: #fceea1;
   --b3-protyle-inline-mark-color: #202124;
   --b3-protyle-inline-tag-color: #5f6368;
   --b3-protyle-inline-blockref-color: #660e7a;
@@ -317,14 +317,16 @@
 .b3-typography mark,
 .protyle-wysiwyg mark {
   padding: 2px 0 0 0;
-  border-bottom: 2px solid #bdcb0f;
+  border-bottom: 2px solid #fae56e;
 }
 .protyle-wysiwyg [data-node-id] span[data-type='search-mark'] {
   padding: 2px 0 0 0;
+  background-color: #d7e42d;
   border-bottom: 2px solid #bdcb0f;
 }
 .b3-list mark {
   padding: 2px 0 0 0;
+  background-color: #d7e42d;
   border-bottom: 2px solid #bdcb0f;
 }
 
