@@ -143,6 +143,23 @@
   --b3-protyle-inline-mark-color: #202124;
   --b3-protyle-inline-tag-color: #5f6368;
   --b3-protyle-inline-blockref-color: #660e7a;
+
+  /* PDF */
+  --b3-pdf-sidebar-width: 200px;
+  --b3-pdf-offset: 0;
+  --b3-pdf-background1: var(--b3-theme-error);
+  --b3-pdf-background2: #f5822e;
+  --b3-pdf-background3: var(--b3-theme-secondary);
+  --b3-pdf-background4: #65b84d;
+  --b3-pdf-background5: #f5539e;
+  --b3-pdf-background6: var(--b3-theme-primary);
+  --b3-pdf-background7: #944194;
+}
+
+/* PDF */
+.textLayer,
+.pdf__resize {
+  mix-blend-mode: darken;
 }
 
 /* 引述 */
@@ -182,10 +199,10 @@
 
 /*滚动条*/
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 /* 标签 */
