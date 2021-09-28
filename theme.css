@@ -18,7 +18,7 @@
   --b3-theme-on-error: #fff;
 
   /* 字体 */
-  --b3-font-family: 'Times New Roman', 'quote', 'Helvetica Neue', 'Luxi Sans',
+  --b3-font-family: 'quote', 'Times New Roman', 'Helvetica Neue', 'Luxi Sans',
     'DejaVu Sans', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol',
     'Android Emoji', 'EmojiSymbols';
